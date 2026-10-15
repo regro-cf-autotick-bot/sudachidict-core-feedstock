@@ -1,13 +1,13 @@
 {% set name = "sudachidict-core" %}
-{% set version = "20260116" %}
+{% set version = "20261015" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 81d3c8bbd880a58de33f9fb441663f46fb46a97b829d7ba7598f7085fedf319e
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 32d2bfc1491b82659959d28f79eb7c034d3a57d77f7610c3d2ea834151d15d23
 
 build:
   noarch: python
